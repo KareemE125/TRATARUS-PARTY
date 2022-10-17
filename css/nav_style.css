@@ -1,0 +1,49 @@
+nav {
+    position: fixed;
+    left: -200px;
+    top: 0;
+}
+
+nav .links{
+    width: 15%;
+    min-width: 200px;
+    background-color: rgb(112, 44, 19);
+}
+
+nav a, nav i{
+    text-decoration: none;
+    font-size: large;
+    font-weight: bold;
+    color: whitesmoke;
+    transition: 0.5s;
+}
+
+nav a:hover{
+    color: rgb(203, 32, 32);
+    font-size: 2rem;
+}
+
+nav i:hover{
+    color: rgb(203, 32, 32);
+}
+
+nav #drawer{
+    height: fit-content;
+    position: relative;
+    top: 45%;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px 10px 10px 0px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius:  15px
+}
+
+nav #drawer span{
+    transition: 0.5s;
+}
+nav #drawer span, nav #drawer i{
+    color: var(--main-color) !important;
+}
+nav #drawer:hover span, nav #drawer:hover i{
+    color: rgb(218, 133, 63) !important;
+}
