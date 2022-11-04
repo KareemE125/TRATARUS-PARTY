@@ -9,7 +9,7 @@ $("#Details h2").click(function(){
 
 //////////////////////// DURATION SECTION //////////////////////////////////
 
-const TargetDate = new Date("Oct 20 2022");
+const TargetDate = new Date("Oct 20 2023");
 const durationItems = $("#Duration .item h2");
 
 function calcDateDiff()
